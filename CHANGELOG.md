@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.0.0](https://github.com/samkenxstream/SAMkenxnpm-init-package-json/compare/v3.1.1...v4.0.0) (2023-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* this module is now Promise only and no longer accepts a callback parameter
+* `init-package-json` is now compatible with the following semver range for node: `^14.17.0 || ^16.13.0 || >=18.0.0`
+
+### Features
+
+* postinstall for dependabot template-oss PR ([e8ea83a](https://github.com/samkenxstream/SAMkenxnpm-init-package-json/commit/e8ea83a9546678c63b8f4d842e0819fced2f7513))
+* refactor ([8b919b7](https://github.com/samkenxstream/SAMkenxnpm-init-package-json/commit/8b919b74149af92f4cad76c96080a254a72b7018))
+
+
+### Dependencies
+
+* bump npm-package-arg from 9.1.2 to 10.0.0 ([4dea768](https://github.com/samkenxstream/SAMkenxnpm-init-package-json/commit/4dea7685efa3a596eb04d2d4de21902efb0f6c84))
+* bump read-package-json from 5.0.2 to 6.0.0 ([#170](https://github.com/samkenxstream/SAMkenxnpm-init-package-json/issues/170)) ([b869b31](https://github.com/samkenxstream/SAMkenxnpm-init-package-json/commit/b869b31550beb4a66f72e0232aee2b4e0225a282))
+* bump validate-npm-package-name from 4.0.0 to 5.0.0 ([#168](https://github.com/samkenxstream/SAMkenxnpm-init-package-json/issues/168)) ([d342821](https://github.com/samkenxstream/SAMkenxnpm-init-package-json/commit/d342821532d3066b2db6f681e922131cd5943b01))
+
 ## [5.0.0](https://github.com/npm/init-package-json/compare/v4.0.1...v5.0.0) (2023-02-06)
 
 ### ⚠️ BREAKING CHANGES
